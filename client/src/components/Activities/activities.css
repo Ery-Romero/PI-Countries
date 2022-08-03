@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fondo {
+    background-image: url('https://static5.depositphotos.com/1035048/471/i/950/depositphotos_4714234-stock-photo-world-map-made-of-several.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size:cover;
+    min-height: 94vh;;
+    display: grid;
+    align-items: center;
+}
+
+.form {
+    max-width: 630px;
+    min-height: 85vh;
+    margin:auto;
+    background: rgba(220, 194, 31, 0.899);
+    border-radius: 10px;
+    border: groove;
+    border-color: rgba(0, 0, 0, 0.797);
+}
+
+.titulo {
+    background: rgba(0, 0, 0, 0.797);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-weight: 160;
+    font-size: 32px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+}
+
+.contenedor1 {
+    padding: 5px 30px;
+    display:list-item;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size:18px;
+}
+
+.inputname {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 8px 40px;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 10px;
+    border-style:ridge;
+}
+
+.selectdif {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-style:ridge;
+}
+
+.inp-duration {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    border-style:ridge;
+}
+
+.radio {
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+
+.radiocual {
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.selectpaises {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-style:ridge;
+}
+
+.delete {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-bottom: 20px;
+    border-style:ridge;
+    display: inline;
+    background-color:rgba(102, 101, 101, 0.647);
+}
+
+.close {
+    position:relative;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+
+.p-country {
+    display: inline;
+}
+
+.button-create {
+    display:flow-root;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.button-crear {
+    background:  rgba(173, 153, 24, 0.899);
+    color: black;
+    padding: 10px 30px;
+    font-family:'Geneva', Verdana, sans-serif;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 160px;
+    font-size: 20px;
+}
+
+.button-crear:hover {
+    color: white;
+    border-color: white;
+}
+
+
+
+

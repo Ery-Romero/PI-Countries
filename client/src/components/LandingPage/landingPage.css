@@ -1,0 +1,107 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+   }
+
+   .Landing {
+      background-image: url('https://img.freepik.com/vector-premium/mapa-mundo-punteado-sobre-fondo-negro-ilustracion-vectorial_541075-470.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center center;
+      background-size: cover;
+      min-height: 100vh;
+      display:grid;
+      align-items: center;
+   }
+
+  .welcome {
+      margin-top: -8%;
+      align-items: center;
+  }
+
+  .button {
+      height:20px; 
+      width:100px; 
+      margin: -20px -40px; 
+      position: absolute;
+      top:40%; 
+      left:50%;
+  }
+
+   .texto {
+      font-family: 'Mochiy Pop One', sans-serif;
+      border-color: black;
+      letter-spacing: 10px;
+      width: 100%;
+      color: transparent;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 200px;
+      font-weight: bold;
+      margin-top: 3%;
+      
+
+      background-image: url('https://i.pinimg.com/originals/d4/f3/e9/d4f3e9b7a82d0549932a015f615c35f4.jpg');
+      background-size: contain;
+      background-position-y: center;
+
+      background-clip: text;
+      -webkit-background-clip: text;
+
+      -webkit-text-fill-color: transparent;
+   }
+
+   .welcome {
+      display:grid;
+      align-items: center;
+      justify-content: center;
+   }
+
+   #arrowAnim {
+    width: 100vw;
+    height: 100vh;
+    display: contents;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .arrow {
+    width: 5vw;
+    height: 5vw;
+    border: 2.5vw solid;
+    border-color: rgb(237, 244, 246) transparent transparent rgb(237, 244, 246);
+    transform: rotate(135deg);
+  }
+  
+  .arrowSliding {
+    position: absolute;
+    -webkit-animation: slide 4s linear infinite; 
+            animation: slide 4s linear infinite;
+  }
+  
+  .delay1 {
+    -webkit-animation-delay: 1s; 
+      animation-delay: 1s;
+  }
+  .delay2 {
+    -webkit-animation-delay: 2s; 
+      animation-delay: 2s;
+  }
+  .delay3 {
+    -webkit-animation-delay: 3s; 
+      animation-delay: 3s;
+  }
+  
+  @-webkit-keyframes slide {
+      0% { opacity:0; transform: translateX(-15vw); }	
+     20% { opacity:1; transform: translateX(-9vw); }	
+     80% { opacity:1; transform: translateX(9vw); }	
+    100% { opacity:0; transform: translateX(15vw); }	
+  }
+  @keyframes slide {
+      0% { opacity:0; transform: translateX(-15vw); }	
+     20% { opacity:1; transform: translateX(-9vw); }	
+     80% { opacity:1; transform: translateX(9vw); }	
+    100% { opacity:0; transform: translateX(15vw); }	
+  }
